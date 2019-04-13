@@ -23,7 +23,6 @@ export default class UserList extends Component {
         let state = this.state;
         state.avatar = { uri: url };
         this.setState(state);
-        console.log(state);
       })
 
       .catch(error => {
